@@ -1,9 +1,9 @@
-interface Person {
+export interface Person {
     firstName: string
     lastName: string
 }
 
-function greeter({ firstName, lastName }: Person) {
+export function greeter({ firstName, lastName }: Person) {
     return `Hello, ${firstName} ${lastName}`
 }
 
